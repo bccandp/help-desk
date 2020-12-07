@@ -189,6 +189,7 @@ section h1 {
 .quick-help .qh-icons {
   padding: 20px;
   display: flex;
+  overflow-wrap: normal;
 }
 
 .quick-help .qh-icons > div {
