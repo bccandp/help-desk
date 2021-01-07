@@ -171,7 +171,7 @@ section h1 {
 }
 
 .quick-help {
-  width: 100%;
+  width: auto;
   height: auto;
   background-color: #fff;
   color: rgb(102, 102, 102);
@@ -233,18 +233,19 @@ section h1 {
 
 .alt-cta {
   width: 100%;
-  height: 150px;
+  height: auto;
   background-color: #e0e0e0;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 2% 10%;
   color: rgb(102, 102, 102);
 }
 
 .alt-cta h3 {
   font-weight: lighter;
-  padding: 0px 200px;
+  width: 100%;
 }
 
 .alt-cta a {
@@ -323,6 +324,26 @@ section h1 {
 
   .cta-wrapper {
     flex-direction: column;
+  }
+
+  .quick-help h1,
+  .ticket-cta h1 {
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .qh-icons {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 125px));
+    width: 100%;
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .alt-cta {
+    font-size: 14px;
+    padding: 8%;
   }
 }
 
