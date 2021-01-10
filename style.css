@@ -12,12 +12,6 @@ a[href^="tel"] {
   transition: all 0.05s ease;
 }
 
-html,
-body {
-  height: 100%;
-  width: auto;
-}
-
 body {
   background-color: white !important;
 }
