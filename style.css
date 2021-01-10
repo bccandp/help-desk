@@ -20,7 +20,9 @@ nav {
   color: white;
   background-color: #894fab;
   height: 100px;
-  position: sticky !important;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -277,6 +279,7 @@ section h1 {
   html,
   body {
     transition: all 0.5s ease;
+    height: 100%;
   }
 
   .overflow {
