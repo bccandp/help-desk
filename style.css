@@ -12,6 +12,11 @@ a[href^="tel"] {
   transition: all 0.05s ease;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   background-color: white !important;
 }
@@ -279,7 +284,6 @@ section h1 {
   html,
   body {
     transition: all 0.5s ease;
-    height: 100%;
   }
 
   .overflow {
