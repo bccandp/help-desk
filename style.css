@@ -20,7 +20,7 @@ nav {
   color: white;
   background-color: #894fab;
   height: 100px;
-  position: sticky;
+  position: sticky !important;
   display: flex;
   justify-content: space-between;
   align-items: center;
