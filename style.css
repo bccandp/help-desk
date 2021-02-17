@@ -87,7 +87,7 @@ nav {
 }
 
 .banner {
-  display: none !important;
+  display: absolute !important;
 }
 
 .banner marquee {
