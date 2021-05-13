@@ -43,9 +43,9 @@ nav {
 
 .logo {
   height: auto;
-  max-height: 100px;
+  max-height: 100%;
   width: auto;
-  max-width: 100%;
+  max-width: 100px;
 }
 
 .head-title {
