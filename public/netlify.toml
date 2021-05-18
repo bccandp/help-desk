@@ -1,11 +1,11 @@
 [[redirects]]
   from = "*"
   to = "/ticket"
-  status = 200
+  status = 301
   force = true
 
   [[redirects]]
-  from = "/*"
-  to = "/ticket"
+  from = "/ticket"
+  to = "/ticket.html"
   status = 200
   force = true
