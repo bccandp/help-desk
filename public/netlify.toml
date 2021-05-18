@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "/index"
+  to = "/ticket"
+  status = 200
+  force = true
+
+  [[redirects]]
+  from = "/home"
+  to = "/ticket"
+  status = 200
+  force = true
