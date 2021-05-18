@@ -1,5 +1,11 @@
 [[redirects]]
-  from = "*"
+  from = "index.html"
+  to = "/ticket"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "home.html"
   to = "/ticket"
   status = 301
   force = true
