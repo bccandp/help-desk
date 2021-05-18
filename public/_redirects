@@ -1,5 +1,7 @@
 # Redirects from what the browser requests to what we serve
-https://help.bccandp.org             https://help.bccandp.org/ticket                301!
-https://help.bccandp.org/index       https://help.bccandp.org/ticket                301!
-https://help.bccandp.org/home        https://help.bccandp.org/ticket                301!
-https://help.bccandp.org/ticket      https://help.bccandp.org/ticket.html           200!
+https://help.bccandp.org                  https://help.bccandp.org/ticket                301!
+https://help.bccandp.org/index            https://help.bccandp.org/ticket                301!
+https://help.bccandp.org/index.html       https://help.bccandp.org/ticket                301!
+https://help.bccandp.org/home             https://help.bccandp.org/ticket                301!
+https://help.bccandp.org/home.html        https://help.bccandp.org/ticket                301!
+https://help.bccandp.org/ticket           https://help.bccandp.org/ticket.html           200!
