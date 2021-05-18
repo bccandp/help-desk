@@ -1,3 +1,4 @@
 # Redirects from what the browser requests to what we serve
+/               /ticket    200
 /index          /ticket    200
 /home           /ticket    200
