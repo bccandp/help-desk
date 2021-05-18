@@ -133,6 +133,10 @@ section h1 {
   z-index: 1;
 }
 
+.text-section h2 {
+  font-weight: lighter;
+}
+
 .btn-section {
   display: flex;
   justify-content: center;
