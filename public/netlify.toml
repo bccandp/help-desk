@@ -1,17 +1,23 @@
 [[redirects]]
-  from = "index.html"
-  to = "/ticket"
+  from = "https://help.bccandp.org"
+  to = "https://help.bccandp.org/ticket"
   status = 301
   force = true
 
   [[redirects]]
-  from = "home.html"
-  to = "/ticket"
+  from = "https://help.bccandp.org/index"
+  to = "https://help.bccandp.org/ticket"
   status = 301
   force = true
 
   [[redirects]]
-  from = "/ticket"
-  to = "/ticket.html"
+  from = "https://help.bccandp.org/home"
+  to = "https://help.bccandp.org/ticket"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "https://help.bccandp.org/ticket"
+  to = "https://help.bccandp.org/ticket.html"
   status = 200
   force = true
