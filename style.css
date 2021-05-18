@@ -14,6 +14,7 @@ a[href^="tel"] {
 
 body {
   background-color: white !important;
+  height: 100vh;
 }
 
 nav {
@@ -105,6 +106,41 @@ nav {
 
 section h1 {
   font-size: 36px;
+}
+
+.error {
+  min-height: calc(100vh - 198px) !important;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error > div {
+  padding: 18px;
+}
+
+.errorIcon img {
+  height: 140px;
+  width: auto;
+  transform: translateY(40px);
+  z-index: -1;
+}
+
+.text-section,
+.btn-section {
+  z-index: 1;
+}
+
+.btn-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-section .btn {
+  margin: 8px;
 }
 
 .cta-wrapper {
@@ -326,6 +362,14 @@ section h1 {
     transition: all 0.5s ease;
   }
 
+  .errorIcon img {
+    transform: translateY(20px);
+  }
+
+  .btn-section {
+    flex-direction: column;
+  }
+
   .cta-wrapper {
     flex-direction: column;
   }
@@ -380,4 +424,8 @@ section h1 {
 .toggle .line3 {
   transform: rotate(45deg) translate(-4px, -6px);
   transition: all 0.5s ease;
+}
+
+.lessthan {
+  position: absolute;
 }
