@@ -401,7 +401,7 @@ section h1 {
 
 .nav-active {
   height: 100vh !important;
-  overflow: hidden !important;
+
   transition: all 0.5s ease;
 }
 
