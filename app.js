@@ -16,7 +16,7 @@ const navSlide = () => {
 
     burger.addEventListener('click' , ()=>{
         html.classList.toggle('overflow');
-        //body.classList.toggle('overflow');
+        body.classList.toggle('overflow');
         body.classList.toggle('nav-active');
         //navBlock.classList.toggle('slide-reverse');
         burger.classList.toggle('toggle');
