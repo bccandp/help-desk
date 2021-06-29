@@ -102,6 +102,7 @@ nav {
 
 .banner a {
   color: inherit;
+  text-decoration: underline;
 }
 
 section h1 {
