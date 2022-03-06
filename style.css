@@ -110,7 +110,7 @@ section h1 {
 }
 
 .error {
-  min-height: calc(100vh - 198px) !important;
+  min-height: 82vh !important;
   padding: 100px;
   display: flex;
   flex-direction: column;
