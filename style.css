@@ -54,6 +54,23 @@ nav {
   font-weight: 400;
 }
 
+.status-top {
+  border: solid 2px white;
+  border-radius: 30px;
+  padding: 10px 15px !important;
+  font-weight: 500 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all ease 0.2s;
+}
+
+.status-top:hover {
+  color: #894fab;
+  background-color: white;
+}
+
 .nav-links {
   display: flex;
   flex-direction: row;
