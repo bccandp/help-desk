@@ -67,7 +67,7 @@ nav {
 }
 
 .status-top:hover {
-  color: #894fab;
+  color: #894fab !important;
   background-color: white;
 }
 
